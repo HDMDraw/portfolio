@@ -1,0 +1,113 @@
+@font-face {
+  font-family: 'CustomFont';
+  src: url('Genshin.ttf');
+}
+
+body{
+    background: rgb(57,53,210);
+    background: linear-gradient(90deg, rgba(57,53,210,1) 0%, rgba(220,0,181,1) 100%);
+    font-family: 'CustomFont', sans-serif;
+}
+
+footer {
+  text-align: center;
+  padding: 5px;
+  color: #000;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.button1 {
+    background-color: white; 
+    border: solid;
+    border-radius: 4px;
+    border-color: #3935d2;
+    border-width: 2px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+  }
+
+.button1:hover {
+    background-color: #3935d2;
+    color: white;
+    cursor: pointer;
+  }
+
+.button2 {
+    background-color: white; 
+    border: solid;
+    border-radius: 4px;
+    border-color: #703dcc;
+    border-width: 2px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+  }
+
+.button2:hover {
+    background-color: #703dcc;
+    color: white;
+    cursor: pointer;
+  }
+
+.button3 {
+    background-color: white; 
+    border: solid;
+    border-radius: 4px;
+    border-color: #b330bf;
+    border-width: 2px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+  }
+
+.button3:hover {
+    background-color: #b330bf;
+    color: white;
+    cursor: pointer;
+  }
+
+.button4 {
+    background-color: white; 
+    border: solid;
+    border-radius: 4px;
+    border-color: #dc00b5;
+    border-width: 2px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+  }
+
+.button4:hover {
+    background-color: #dc00b5;
+    color: white;
+    cursor: pointer;
+  }
+
+h1{
+    color : white;
+}
+
+h2{
+  color : white;
+}
+
