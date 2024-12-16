@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet">
+        <script src="script.js"></script>
+        <meta charset="UTF-8">
+        <title>Calculatrice</title> 
+    </head>
+    <body>
+        <div class="main">
+            <input id="zoneTexte" type="text" disabled></input> <!-- Il s'agit ici d'afficher une case qui sera changée en fonction du bouton cliquer-->
+            <div>
+                <button class="boutonPetit" id="+" onclick="addToCalc('+')">+</button> <!-- Ici, je créé les boutons de la calculatrices, liés à la fonction addToCalc() qui va ajouter la valeur du bouton au calcul-->
+                <button class="boutonPetit" id="-" onclick="addToCalc('-')">-</button>
+                <button class="boutonPetit" id="*" onclick="addToCalc('*')">*</button>
+                <button class="boutonPetit" id="/" onclick="addToCalc('/')">/</button>
+            </div>
+            <div>
+                <button class="boutonMoyen" id="7" onclick="addToCalc('7')">7</button>
+                <button class="boutonMoyen" id="8" onclick="addToCalc('8')">8</button>
+                <button class="boutonMoyen" id="9" onclick="addToCalc('9')">9</button>
+            </div>
+            <div>
+                <button class="boutonMoyen" id="4" onclick="addToCalc('4')">4</button>
+                <button class="boutonMoyen" id="5" onclick="addToCalc('5')">5</button>
+                <button class="boutonMoyen" id="6" onclick="addToCalc('6')">6</button>
+            </div>
+            <div>
+                <button class="boutonMoyen" id="1" onclick="addToCalc('1')">1</button>
+                <button class="boutonMoyen" id="2" onclick="addToCalc('2')">2</button>
+                <button class="boutonMoyen" id="3" onclick="addToCalc('3')">3</button>
+            </div>
+            <div>
+                <button class="boutonMoyen" id="corr" onclick="correctingCalc()">C</button>
+                <button class="boutonMoyen" id="0" onclick="addToCalc('0')">0</button>
+                <button class="boutonMoyen" id="=" onclick="startCalc()">=</button>
+            </div>
+            <div>
+                <input id="simply" type="checkbox" checked onclick="tempImp()">Version simplifiée</input>
+            </div>
+        </div>
+    </body>
+</html>

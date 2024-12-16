@@ -1,0 +1,41 @@
+
+body{
+    background: linear-gradient(300deg, rgb(32, 57, 32) 11.4%, rgb(63, 119, 68) 70.2%);;
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    line-height: 1.5;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+
+.main {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    transition: transform 0.2s;
+    width: 500px;
+    text-align: center;
+}
+
+.boutonPetit {
+    width: 60px;
+    padding: 10px;
+}
+
+.boutonMoyen {
+    width: 80px;
+    padding: 10px;
+}
+
+.boutonGrand {
+    width: 120px;
+    padding: 10px;
+}
